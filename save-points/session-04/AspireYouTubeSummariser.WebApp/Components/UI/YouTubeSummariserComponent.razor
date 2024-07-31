@@ -24,7 +24,7 @@
         </div>
         <div class="col">
             <div class="mb-3">
-                <label for="summary-language-code" class="form-label"><strong>Summary Language</strong></label>
+                <label for="summary-language-code" class="form-label"><strong>Summary</strong></label>
                 <select class="form-select" id="summary-language-code" aria-label="Summary language code" @bind="summaryLanguageCode">
                     <option value="en" selected>English</option>
                     <option value="ko">Korean</option>
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    
+
 
     <div class="row">
         <div class="mb-3">
@@ -44,7 +44,7 @@
     <div class="row">
         <div class="mb-3">
             <label for="summary" class="form-label"><strong>Summary</strong></label>
-            <textarea class="form-control" id="summary" rows="10" placeholder="Result will show here" readonly>@summaryResult</textarea>
+            <textarea class="form-control" id="result" rows="10" placeholder="Result will show here" readonly>@summaryResult</textarea>
         </div>
     </div>
 </div>
